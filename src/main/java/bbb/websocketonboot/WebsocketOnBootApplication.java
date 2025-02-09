@@ -9,5 +9,4 @@ public class WebsocketOnBootApplication {
     public static void main(String[] args) {
         SpringApplication.run(WebsocketOnBootApplication.class, args);
     }
-
 }
