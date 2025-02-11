@@ -20,8 +20,8 @@ import static java.lang.System.out;
 @Slf4j
 public class ExampleEndpoint {
 
-    private Session session;
     private static final Set<ExampleEndpoint> ENDPOINTS = new CopyOnWriteArraySet<>();
+    private Session session;
 
     @OnOpen
     public void onOpen(Session session, @PathParam("param") String param) {
